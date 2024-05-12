@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>como_fazer_suco_de_laranja</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function checkPassword() {
+            var password = document.getElementById('passwordBox').value;
+            var realPassword = "derepente30"; // Substitua isso pela senha que você deseja usar
+
+            if(password == realPassword) {
+                // A senha está correta, mostre o conteúdo
+                document.getElementById('content').style.display = 'block';
+                document.getElementById('login').style.display = 'none';
+            } else {
+                // A senha está incorreta, mostre uma mensagem de erro
+                alert("Senha incorreta!");
+            }
+        }
+    </script>
+    
+</head>
+<body>
+     
+    <div class="div-centralizada">
+        <div id="login">
+            <h1>Para: Gr... Vinicius!</h1>
+            <label for="passwordBox">Digite a senha:</label>
+            <input type="password" id="passwordBox">
+            <button onclick="checkPassword()">Entrar</button>
+        </div>
+
+        <div id="content" style="display: none;">
+            <!-- Coloque o conteúdo protegido por senha aqui -->
+            <h1>Bem-vindo à página protegida por senha!</h1>
+            <p>
+                Vinizinho (haha te imitei cê viu?) Você é a pessoa mais fofa e titica desse mundo, só perde pro mingau...
+                mas ele é um gato então não é justo KKKK enfim, é isso, você é fofo, titico, um amor de pessoa tendeu?
+                Se possível, construir aquela maquina do tempo o mais rápido possível e me autorizar a usar tbm né por favor...
+                tô querendo voltar pro dia da estação haha, é isso tchau. 
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

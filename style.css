@@ -1,0 +1,61 @@
+
+body{
+    background-color: #000000;
+    height: 100vh;
+    
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+p{color: aliceblue;
+    text-align: justify;
+    padding: 0px 300px;
+    font-size: 20px;
+}
+
+label{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #5fffc7;;
+    border-radius: 4px;
+}
+
+button{
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #5fffc7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.05);
+}
+
+.div-centralizada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso define a altura para 100% da altura da janela de visualização */
+}
+
+@media screen and (max-width: 600px){
+    p{
+        padding: 0px 20px;
+    }
+}
